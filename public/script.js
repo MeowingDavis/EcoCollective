@@ -45,7 +45,7 @@ const setup = () => {
   renderer.shadowMapSoft = true;
   // controls
   controls = new THREE.OrbitControls(camera, renderer.domElement);
-  controls.autoRotate = true;
+  controls.autoRotate = false;
   controls.autoRotateSpeed = 1.6;
   camera.position.set(3.56, 2, 3.4);
   // lights 
