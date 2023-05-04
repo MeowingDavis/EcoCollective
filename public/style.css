@@ -63,3 +63,22 @@ html, body {
     right: 10px;
   }
   
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+  }
+  
+  h1 {
+    font-size: 40px;
+    font-family:monospace;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
