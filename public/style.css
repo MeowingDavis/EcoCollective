@@ -6,6 +6,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: monospace;
 }
 
 svg {
@@ -82,4 +83,31 @@ h1 {
   padding: 0;
 }
 
-  
+
+.introInfo {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(0, -50%);
+}
+
+.parent {
+  position: relative;
+}
+
+.introInfo {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  margin-right: 70%;
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: 5%;
+  transform: translate(0, -50%);
+  background-color: rgba(44, 157, 63, 0.8);
+}
+
+#infoHead {
+
+  text-align: center;
+}
