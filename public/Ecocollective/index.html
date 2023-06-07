@@ -31,7 +31,7 @@
 <script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/r118/three.min.js'></script>
 <script src='https://cdn.jsdelivr.net/npm/three@0.118/examples/js/controls/OrbitControls.js'></script>
 <script  src="./script.js"></script>
-<script src="close.js"></script>
+<script src="./close.js"></script>
 <script src="./welcomeScript.js"></script>
 
 <div class="button-container">
@@ -44,8 +44,9 @@
   </div>
 <div class="parent"></div>
   <div class="introInfo">
-    <h2 id="infoHead">Info</h2>
-    <button class="close-btn">&times;</button>
+    <h2 id="infoHead">D E M O</h2>
+    
+    <button id="closeBtn" onclick="document.querySelector('.introInfo').style.display = 'none'">X</button>
     <p>EcoCollective will be home to an interactive community. 
     <br><br>
     Users will be able to add people to their digital online community. As you add people their houses will be added next to yours, forming a little online community.
@@ -57,8 +58,7 @@
     The <b>"Share"</b> section, will allow for users to share post to their online community. Allowing others to see what theyve been doing within their local community.
     </p>
   </div>
-  </div>
- 
+
 
   
 

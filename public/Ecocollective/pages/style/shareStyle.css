@@ -1,6 +1,7 @@
 body {
     background-color:  rgba(113, 182, 247);
     font-family: 'Sono', sans-serif;
+    width: fit-content;
   }
   
   .shareInfo{
