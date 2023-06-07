@@ -129,3 +129,14 @@ h1 {
 #closeBtn:hover {
   color: grey;
 }
+#closeBtn:hover::before {
+  content: "Close";
+  position: absolute;
+  top: -25px;
+  left: 25px;
+  background: grey;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 14px;
+}
