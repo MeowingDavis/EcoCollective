@@ -1,3 +1,9 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
 .continue {
     text-align: center;
     font-size: 15px;
@@ -17,9 +23,13 @@ a:hover {
 
   #writeUp {
     margin: 1%;
+    margin-left: 20%;
+    margin-right: 20%;
     padding: 10px;
+    
     border-radius: 20px;
     background-color: rgba(44, 157, 63, 0.8);
+    font-family: 'Sono', sans-serif;
   }
   
   
